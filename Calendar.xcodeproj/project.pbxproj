@@ -15,6 +15,12 @@
 		159486D91D90CFC3008FB8AE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 159486D71D90CFC3008FB8AE /* LaunchScreen.storyboard */; };
 		159486E41D90CFC3008FB8AE /* CalendarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 159486E31D90CFC3008FB8AE /* CalendarTests.m */; };
 		159486EF1D90CFC3008FB8AE /* CalendarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 159486EE1D90CFC3008FB8AE /* CalendarUITests.m */; };
+		159487011D90CFF7008FB8AE /* Header.m in Sources */ = {isa = PBXBuildFile; fileRef = 159486FE1D90CFF7008FB8AE /* Header.m */; };
+		159487021D90CFF7008FB8AE /* MyCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 159487001D90CFF7008FB8AE /* MyCell.m */; };
+		159487061D90D288008FB8AE /* CheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159487051D90D288008FB8AE /* CheckViewController.m */; };
+		1594870A1D90D2EF008FB8AE /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 159487091D90D2EF008FB8AE /* MBProgressHUD.m */; };
+		1594870B1D90D51A008FB8AE /* CheckViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 159487051D90D288008FB8AE /* CheckViewController.m */; };
+		1594870F1D90DD38008FB8AE /* modex.m in Sources */ = {isa = PBXBuildFile; fileRef = 1594870E1D90DD38008FB8AE /* modex.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +57,17 @@
 		159486EA1D90CFC3008FB8AE /* CalendarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalendarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		159486EE1D90CFC3008FB8AE /* CalendarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CalendarUITests.m; sourceTree = "<group>"; };
 		159486F01D90CFC3008FB8AE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		159486FD1D90CFF7008FB8AE /* Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		159486FE1D90CFF7008FB8AE /* Header.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Header.m; sourceTree = "<group>"; };
+		159486FF1D90CFF7008FB8AE /* MyCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCell.h; sourceTree = "<group>"; };
+		159487001D90CFF7008FB8AE /* MyCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCell.m; sourceTree = "<group>"; };
+		159487031D90D01E008FB8AE /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		159487041D90D288008FB8AE /* CheckViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CheckViewController.h; sourceTree = "<group>"; };
+		159487051D90D288008FB8AE /* CheckViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CheckViewController.m; sourceTree = "<group>"; };
+		159487081D90D2EF008FB8AE /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		159487091D90D2EF008FB8AE /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		1594870D1D90DD38008FB8AE /* modex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = modex.h; sourceTree = "<group>"; };
+		1594870E1D90DD38008FB8AE /* modex.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = modex.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +122,13 @@
 				159486CD1D90CFC3008FB8AE /* AppDelegate.m */,
 				159486CF1D90CFC3008FB8AE /* ViewController.h */,
 				159486D01D90CFC3008FB8AE /* ViewController.m */,
+				159487041D90D288008FB8AE /* CheckViewController.h */,
+				159487051D90D288008FB8AE /* CheckViewController.m */,
+				1594870D1D90DD38008FB8AE /* modex.h */,
+				1594870E1D90DD38008FB8AE /* modex.m */,
+				1594870C1D90DD15008FB8AE /* mode */,
+				159486FC1D90CFF7008FB8AE /* view */,
+				159487071D90D2EF008FB8AE /* MBProgressHUD */,
 				159486D21D90CFC3008FB8AE /* Main.storyboard */,
 				159486D51D90CFC3008FB8AE /* Assets.xcassets */,
 				159486D71D90CFC3008FB8AE /* LaunchScreen.storyboard */,
@@ -118,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				159486CA1D90CFC3008FB8AE /* main.m */,
+				159487031D90D01E008FB8AE /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -138,6 +163,33 @@
 				159486F01D90CFC3008FB8AE /* Info.plist */,
 			);
 			path = CalendarUITests;
+			sourceTree = "<group>";
+		};
+		159486FC1D90CFF7008FB8AE /* view */ = {
+			isa = PBXGroup;
+			children = (
+				159486FD1D90CFF7008FB8AE /* Header.h */,
+				159486FE1D90CFF7008FB8AE /* Header.m */,
+				159486FF1D90CFF7008FB8AE /* MyCell.h */,
+				159487001D90CFF7008FB8AE /* MyCell.m */,
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		159487071D90D2EF008FB8AE /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				159487081D90D2EF008FB8AE /* MBProgressHUD.h */,
+				159487091D90D2EF008FB8AE /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
+			sourceTree = "<group>";
+		};
+		1594870C1D90DD15008FB8AE /* mode */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = mode;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -207,7 +259,8 @@
 				TargetAttributes = {
 					159486C51D90CFC3008FB8AE = {
 						CreatedOnToolsVersion = 8.0;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = WXX3A79HHW;
+						ProvisioningStyle = Manual;
 					};
 					159486DE1D90CFC3008FB8AE = {
 						CreatedOnToolsVersion = 8.0;
@@ -273,9 +326,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				159487011D90CFF7008FB8AE /* Header.m in Sources */,
+				159487061D90D288008FB8AE /* CheckViewController.m in Sources */,
 				159486D11D90CFC3008FB8AE /* ViewController.m in Sources */,
 				159486CE1D90CFC3008FB8AE /* AppDelegate.m in Sources */,
+				159487021D90CFF7008FB8AE /* MyCell.m in Sources */,
 				159486CB1D90CFC3008FB8AE /* main.m in Sources */,
+				1594870A1D90D2EF008FB8AE /* MBProgressHUD.m in Sources */,
+				1594870F1D90DD38008FB8AE /* modex.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +350,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				159486EF1D90CFC3008FB8AE /* CalendarUITests.m in Sources */,
+				1594870B1D90D51A008FB8AE /* CheckViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -422,10 +481,16 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liang Huang (QKZL7UTX86)";
+				DEVELOPMENT_TEAM = WXX3A79HHW;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Calendar/PrefixHeader.pch";
 				INFOPLIST_FILE = Calendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CiHon.Calendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9f1bdd67-1ea9-4ac9-b826-bd636ab720ae";
+				PROVISIONING_PROFILE_SPECIFIER = NewCheYiTestIds;
 			};
 			name = Debug;
 		};
@@ -433,10 +498,17 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer: Liang Huang (QKZL7UTX86)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer: Liang Huang (QKZL7UTX86)";
+				DEVELOPMENT_TEAM = WXX3A79HHW;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/Calendar/PrefixHeader.pch";
 				INFOPLIST_FILE = Calendar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = CiHon.Calendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "9f1bdd67-1ea9-4ac9-b826-bd636ab720ae";
+				PROVISIONING_PROFILE_SPECIFIER = NewCheYiTestIds;
 			};
 			name = Release;
 		};
